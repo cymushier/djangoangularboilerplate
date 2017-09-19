@@ -1,0 +1,23 @@
+<div *ngIf="post">
+  <h2>Post: {{ post.title }}</h2>
+  
+  <table>
+    <tr>
+      <th align="right">State</th>
+      <td>{{ post.state|uppercase }}</td>
+    </tr>
+    <tr>
+      <th align="right">Post ID</th>
+      <td>{{ post.id }}</td>
+    </tr>
+    <tr>
+      <th align="right">Post Content</th>
+      <td>{{ post.post }}</td>
+    </tr>
+  </table>
+</div>
+<div *ngElse>
+  <h1>
+    No Matching Post found!
+  </h1>
+</div>
