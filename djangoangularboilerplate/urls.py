@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from posts.views import Home
+from djangoangularboilerplate.views import Home
 
 urlpatterns = [
 	url(r'^admin/', admin.site.urls),
