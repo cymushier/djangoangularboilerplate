@@ -18,6 +18,7 @@ Angular Dependencies
 Usage
 -----
 
+    npm install # In frontend directory
     python manage.py runserver
     ng serve
     
