@@ -9,6 +9,8 @@ Dependencies
     pip install djangorestframework
     pip install markdown
     pip install django-filter
+    pip install djangorestframework-jwt
+    pip install django-cors-headers
     
 Angular Dependencies
 --------------------
@@ -19,6 +21,8 @@ Usage
 -----
 
     npm install # In frontend directory
+    python manage.py makemigrations
+    python manage.py migrate
     python manage.py runserver
     ng serve
     
